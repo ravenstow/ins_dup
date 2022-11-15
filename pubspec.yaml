@@ -31,7 +31,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  # Firebase相關
+  firebase_core: ^1.19.2
+  # Bloc
+  bloc: ^8.1.0
+  flutter_bloc: ^8.0.1
+  # Dependency Injection
+  get_it: ^7.2.0
+  # Database
+  objectbox: ^1.6.0
+  objectbox_flutter_libs: any
+  shared_preferences: ^2.0.15
+  # 權限許可
+  permission_handler: ^10.0.0
+  # RESTFUL api
+  http: ^0.13.4
+  # 其他
+  rxdart: ^0.27.5
+  equatable: ^2.0.5
+  dartz: ^0.10.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -40,6 +58,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  build_runner: ^2.0.0
+  objectbox_generator: any
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -47,6 +67,10 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+objectbox:
+  # Writes objectbox-model.json and objectbox.g.dart to lib/models.
+  output_dir: core/packages/objectbox
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
