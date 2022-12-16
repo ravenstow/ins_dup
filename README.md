@@ -1,16 +1,26 @@
-# ins_dup
+# Instagram Duplication
 
-Instagram duplication
+## Introduction
 
-## Getting Started
+Hi there, 
 
-This project is a starting point for a Flutter application.
+This project is only for DEMO PURPOSE as a INSTAGRAM COPY written in Flutter. 
+Do note that it does not intend to offend any copyright, welcome to fork for reference or any other use if is does you any goods.
 
-A few resources to get you started if this is your first Flutter project:
+##Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+a. HOME PAGE: List-scrolling feed
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+b. SEARCH PAGE: Grid-scrolling feed
+
+c. ACCOUNT PAGE: Memeber profile content
+
+## Techniques
+
+- STATE MANAGEMENT: *Bloc*
+
+- NAVIGATION: *Go_router*
+
+- DEPENDENCY INJECTION: *get_it*
+
+- DB: *Objectbox*
